@@ -1,0 +1,141 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+body {
+    font-size: 15px;
+    content: center;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 3em;
+    padding-right: 2em;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    padding-left: 2em;
+}
+
+.box {
+    padding-top: 5em;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+}
+
+.btn-press-first {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -7em; /* needs to change */
+    width: 40%;
+    background: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.btn-press-second {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -7em; /* needs to change */
+    width: 40%;
+    background: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.btn-press-third {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -7em; /* needs to change */
+    width: 40%;
+    background: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.img-svg {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -10em; /* needs to change */
+}
